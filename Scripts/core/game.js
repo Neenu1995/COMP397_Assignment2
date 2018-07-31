@@ -14,15 +14,15 @@
     var CurrentState;
     var keyboardManager;
     var Manifest = [
-        { id: "StartButton", src: "/Assets/images/StartButton.png" },
-        { id: "girl", src: "/Assets/images/girl.png" },
-        { id: "bg", src: "/Assets/images/BG.png" },
-        { id: "star", src: "/Assets/images/star.png" },
-        { id: "sweeper", src: "/Assets/images/minesweeper.png" },
-        { id: "starHit", src: "/Assets/audio/life.wav" },
-        { id: "bgMusic", src: "/Assets/audio/bg.mp3" },
-        { id: "sweeperHit", src: "/Assets/audio/sweeperHit.wav" },
-        { id: "jump", src: "/Assets/audio/Jump.wav" }
+        { id: "StartButton", src: "Assets/images/StartButton.png" },
+        { id: "girl", src: "Assets/images/girl.png" },
+        { id: "bg", src: "Assets/images/BG.png" },
+        { id: "star", src: "Assets/images/star.png" },
+        { id: "sweeper", src: "Assets/images/minesweeper.png" },
+        { id: "starHit", src: "Assets/audio/life.wav" },
+        { id: "bgMusic", src: "Assets/audio/bg.mp3" },
+        { id: "sweeperHit", src: "Assets/audio/sweeperHit.wav" },
+        { id: "jump", src: "Assets/audio/Jump.wav" }
     ];
     function Init() {
         AssetManager = new createjs.LoadQueue();
